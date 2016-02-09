@@ -6,7 +6,6 @@
             box-sizing: border-box;
 }
 
-
 html {
   background: url(../img/coastline.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -18,17 +17,24 @@ html {
 .container {
   width: 100%;
 }
+
 .navbarOptions {
   margin-left: 45%;
 }
+
+a {
+  text-decoration: none;
+    color: white;
+}
+
 .navbarOptions h4 {
   float: left;
   display: inline;
   padding-left: 3%;
-  color: white;
   margin-top: 40px;
   font-family: 'Raleway', sans-serif;
 }
+
 #signIn {
   border: 2px solid white;
   border-radius: 5px;
@@ -42,15 +48,15 @@ html {
   border: 1px solid #f9c806;
   border-radius: 5px;
   padding: 2%;
-  color: black;
   margin-top: 23px;
   background-color: #f9c806;
 }
 
-.worldIcon {
-  /*margin-bottom: 5%;*/
-  /*margin-left: 0;*/
+#signUp a {
+  color: black;
+}
 
+.worldIcon {
   max-width: 20px;
   max-height: 1px;
 }
@@ -98,10 +104,13 @@ html {
 
 #stories {
   margin-left: 35%;
-  color: black;
   background-color: #ffffff;
   border: 1px solid #2C2C2C;
   opacity: 0.6;
+}
+
+#stories a {
+  color: black;
 }
 
 #facebook {
@@ -123,7 +132,7 @@ html {
   margin-top: 80px;
 }
 
-a {
+.footer a {
     text-decoration: none;
     color: #ccffff;
     font-family: 'Raleway', sans-serif;
