@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+html {
+  background: url(../img/coastline.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+}
+.navbarOptions {
+  margin-left: 45%;
+}
+.navbarOptions h4 {
+  float: left;
+  display: inline;
+  padding-left: 3%;
+  color: white;
+  margin-top: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+#signIn {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 23px;
+}
+
+#signUp {
+  border: 1px solid #f9c806;
+  border-radius: 5px;
+  padding: 2%;
+  color: black;
+  margin-top: 23px;
+  background-color: #f9c806;
+}
+
+.worldIcon {
+  /*margin-bottom: 5%;*/
+  /*margin-left: 0;*/
+
+  max-width: 20px;
+  max-height: 1px;
+}
+
+#world {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.centerIcon {
+  margin-top: 20%;
+  margin-left: 44%;
+}
+
+.frontPageText {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.frontPageText h1 {
+  font-weight: bolder;
+  font-size: 80px;
+  color: #2C2C2C;
+}
+
+.frontPageText p {
+  font-weight: bold;
+  font-size: 25px;
+  color: #d9d9d9;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.buttons h3 {
+  border-radius: 2px;
+  width: 300px;
+  padding: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  display: inline;
+}
+
+#stories {
+  margin-left: 35%;
+  color: black;
+  background-color: #ffffff;
+  border: 1px solid #2C2C2C;
+  opacity: 0.6;
+}
+
+#facebook {
+  background-color: #425F9C;
+  color: white;
+}
+
+.links img {
+  max-width: 150px;
+  max-height: 60px;
+}
+#apple {
+  margin-left: 40%;
+  margin-top: 8%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #ccffff;
+    font-family: 'Raleway', sans-serif;
+}
