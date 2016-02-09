@@ -70,7 +70,7 @@ a {
 
 .centerIcon {
   margin-top: 20%;
-  margin-left: 44%;
+  text-align: center;
 }
 
 .frontPageText {
@@ -101,9 +101,10 @@ a {
   font-family: 'Raleway', sans-serif;
   display: inline;
 }
-
+.buttons {
+  text-align: center;
+}
 #stories {
-  margin-left: 35%;
   background-color: #ffffff;
   border: 1px solid #2C2C2C;
   opacity: 0.6;
@@ -117,13 +118,15 @@ a {
   background-color: #425F9C;
   color: white;
 }
+.links {
+  text-align: center;
+}
 
 .links img {
   max-width: 150px;
   max-height: 60px;
 }
 #apple {
-  margin-left: 40%;
   margin-top: 8%;
 }
 
